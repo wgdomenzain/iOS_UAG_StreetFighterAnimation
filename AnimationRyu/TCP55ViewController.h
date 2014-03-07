@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
-@interface TCP55ViewController : UIViewController
-
+@interface TCP55ViewController : UIViewController{
+    bool stop;
+}
+- (IBAction)btnStop:(id)sender;
+//- (IBAction)btnPlay:(id)sender;
 @end
